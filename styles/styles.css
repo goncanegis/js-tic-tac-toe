@@ -1,0 +1,64 @@
+:root {
+  --white: white;
+  --main-color-1: #feebf4;
+  --main-color-2: #fcc5df;
+  --main-color-3: #f877b3;
+  --main-color-4: #f72585;
+  --main-color-5: #910bea;
+  --main-color-6: #6210e5;
+  --main-color-7: #3a0ca3;
+  --main-color-8: #280972;
+  --main-color-9: #f94e9b;
+
+  --error-color: #ec6f79;
+  --error-background: #f8c9cd;
+
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --overlay-background: rgba(0, 0, 0, 0.7);
+  --border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--main-color-8);
+  background-color: var(--main-color-1);
+}
+
+#main-header {
+  background: rgb(249, 118, 177);
+  background: radial-gradient(
+    circle,
+    rgba(249, 118, 177, 1) 0%,
+    rgba(247, 37, 133, 1) 100%
+  );
+  color: var(--white);
+  padding: 2rem 5%;
+  text-align: center;
+}
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--main-color-4);
+  border: 1px solid var(--main-color-4);
+  color: var(--white);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.btn-alt {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--main-color-4);
+}
+
+.btn:hover {
+  background-color: var(--main-color-6);
+  border-color: var(--main-color-6);
+}
+
+.btn-alt:hover {
+  background-color: var(--main-color-2);
+  border-color: transparent;
+}
